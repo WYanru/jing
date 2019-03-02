@@ -1,0 +1,553 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+.w .fl ._sy{	
+	position: relative;
+	top: 1px;
+	left: 75px;
+}
+.w .fl ._sy a:hover{
+	color: red;
+}
+.w .fl li .henan{
+	position: absolute;
+	top: 1px;
+	left: 2px;
+}
+.D_header{
+	width: 1210px;
+	height: 87px;
+	margin: 0 auto;
+	position: relative;
+}
+.D_logo{
+	margin: 15px 0 22px 0;
+	width: 276px;
+	height: 50px;
+	float: left;
+}
+.D_search{
+	position: absolute;
+	width: 584px;
+	height: 36px;
+	left: 300px;
+	margin: 17px 30px 0 50px;
+}
+.D_form{
+	width: 584px;
+	height: 40px;
+	border: 2px solid #f00;
+}
+.D_form input{
+	height: 36px;
+	width: 498px;
+	float: left;
+}
+.D_form input:last-child{
+	width: 82px;
+	height: 40px;
+	float: left;
+}
+.D_header .D_w .shu_1{
+	left: 350px;
+}
+.D_w .D_guc{
+	border: 1px solid #333;
+	right: 25px;
+}
+.D_w .hotwords{
+	position: absolute;
+	top: 68px ;
+	left: 352px;
+}
+.D_w .hotwords a:first-child{
+	color: #999;
+}
+.D_w .hotwords a:hover{
+	color: red;
+}
+.D_nav{
+	width: 100%;
+	height: 33px;
+	border-bottom: 2px solid #f00;
+	margin-top: 10px;
+}
+.D_nav1{
+	width: 926px;
+	height: 33px;
+	margin-left: 250px;
+	position: relative;
+}
+.D_nav1 li{
+	height: 33px;
+	float: left;
+}
+.D_nav .D_nav1 li:first-child a{
+	display: block;
+	width: 170px;
+	height: 33px;
+	background: #f00;
+	color: #fff;
+	padding: 0 10px;
+	text-align: center;
+	line-height: 33px;
+	font-weight: normal;
+}
+.D_nav1 li a{
+	display: block;
+	height: 33px;
+	padding: 0 22px;
+	text-align: center;
+	line-height: 33px;
+	font-size: 14px;
+	color: #333;
+	font-weight: 700;
+}
+.D_nav1 li a:hover{
+	color: red;
+}
+.D_nav1 p{
+	position: absolute;
+	top: -4px;
+	left: 329px;
+	font-size: 12px;
+	width: 42px;
+	height: 17px;
+	text-align: center;
+	line-height: 16px;
+	background: green;
+}
+.D_nav1 span{
+	width: 3px;
+	height: 3px;
+	background: green;
+	display: block;
+}
+.D_xq{
+	width: 1210px;
+	height: 40px;
+	margin: 0 auto;
+	line-height: 40px;
+}
+.D_xq1 a:first-child{
+	float: left;
+	color: #999;
+}
+.D_xq1 a:last-child{
+	float: right;
+	font-size: 14px;
+	color: #999;
+}
+.D_xq p:hover{
+	color: red;
+}
+.D_xq1 p,.D_xq1 span{
+	display: block;
+	float: left;
+}
+.D_ziy ._ziying{
+	width: 32px;
+	padding: 1px;	
+	color: #fff;
+	background: #f00;	
+}
+.D_ziy p{
+	padding-left: 10px;
+}
+#zoombox{
+	position: relative;
+	width: 400px;
+	border: 1px solid #CECECE;
+	left: 245px;
+	top: 30px;
+}
+#mid{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	
+}
+#mid img{
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+}
+#zoom{
+	display: none;
+	position: absolute;
+	width: 200px;
+	height: 200px;
+	background: yellow;
+	opacity: 0.5;
+	cursor: move;
+}
+#big{
+	display: none;
+	position: absolute;
+	top: -1px;
+	left: 401px;
+	width: 400px;
+	height: 400px;
+	overflow: hidden;
+	border: 1px solid #CECECE;
+}
+#big img{
+	position: absolute;
+	width: 800px;
+	height: 800px;
+}
+#small{
+	width:400px;
+	height:60px;
+	position: absolute;
+	left: 245px;
+	top:660px;
+}
+#small li{
+	float: left;
+	margin: 0 20px 0 20px;
+}
+._details{
+	width: 100%;
+	height: 711px;
+	background: #fff;
+	/*position: relative;*/
+}
+.D_right{
+	width: 900px;
+	height: 600px;
+	/*background: #ff0;*/
+	position: absolute;
+	top: 215px;
+	right: 40px;
+}
+.D-title{
+	width: 900px;
+	height: 70px;
+}
+.D-ti{
+	height: 40px;
+	line-height: 40px;
+}
+.D-tit{
+	display: block;
+	font-size: 14px;
+	color: #f00;
+}
+.D-price{
+	width: 900px;
+	height: 50px;
+}
+.D-price1{
+	width: 850px;
+	height: 50px;
+	background: #ddd;
+}
+.D-jd1{
+	float: left;
+	width: 300px;
+	height: 50px;
+	position: relative;
+}
+._jdjia{
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	float: left;
+	font-size: 14px;
+}
+._jia{
+	display: block;
+	width: 10px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 20px;
+	float: left;
+	color: red;
+	margin-right: 10px;
+}
+._jiage{
+	width: 40px;
+	height: 50px;
+	line-height: 50px;
+	color: red;
+	font-size: 27px;
+	float: left;
+	font-style: normal;
+	margin-right: 70px;
+}
+._tongzhi{
+	width: 65px;
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	float: left;
+}
+._tongzhi:hover{
+	color: red;
+}
+.D-jd2{
+	float: right;
+	width: 80px;
+	height: 50px;
+	border-left: 1px solid #999;
+}
+._leiji{
+	height: 30px;
+	line-height: 30px;
+	font-size: 14px;
+	text-align: center;
+}
+._num{
+	text-align: center;
+	width: 80px;
+	display: block;
+}
+._num:hover{
+	color: red;
+}
+.D-address{
+	width: 900px;
+	height: 150px;
+	position: relative;
+}
+.D-add1{
+	width: 850px;
+	height: 150px;
+	border-bottom: 1px solid #ddd;
+}
+.peisong{
+	position: absolute;
+	top: 15px;
+	left: 10px;
+	font-size: 14px;
+}
+.D-add1 select{
+	position: absolute;
+	top: 15px;
+	left: 65px;	
+}
+.youhuo{
+	position: absolute;
+	top: 15px;
+	left: 270px;
+	font-size: 14px;
+}
+.zhici{
+	position: absolute;
+	top: 15px;
+	left: 310px;
+	font-size: 14px;
+}
+.yunfei{
+	position: absolute;
+	top: 15px;
+	left: 350px;
+	font-size: 14px;
+}
+.yunfei:hover{
+	color: red;
+}
+._fahuo{
+	position: absolute;
+	top: 55px;
+	left: 60px;
+	font-size: 14px;
+}
+._zhong{
+	position: absolute;
+	top: 104px;
+	left: 22px;
+	font-size: 14px;
+}
+._zhong1{
+	position: absolute;
+	top: 104px;
+	left: 60px;
+	font-size: 14px;
+}
+.D-xuanze{
+	width: 900px;
+	height: 300px;
+	color: #999;
+	font-size: 14px;
+	position: relative;
+	border-bottom: 1px solid #ccc;
+}
+._xuan1{
+	position: absolute;
+	top: 15px;
+	left: 30px;
+}
+._yanse1{
+	width: 205px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	position: absolute;
+	border: 1px solid #ccc;
+	
+}
+._yanse1{
+	top: 15px;	
+	left: 107px;
+}
+._yanse2{
+	top: 15px;	
+	left: 330px;
+}
+._yanse3{
+	top: 15px;	
+	left: 560px;
+}
+._yanse4{
+	top: 75px;	
+	left: 107px;
+}
+._ban{
+	position: absolute;
+	top: 130px;
+	left: 30px;
+}
+._banben{
+	position: absolute;
+	top: 130px;
+	border: 1px solid #ccc;
+	width: 166px;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+}
+._banben{
+	left: 110px;
+}
+._banben1{
+	left: 300px;
+}
+._banben2{
+	left: 500px;
+}
+._taozhuang{
+	position: absolute;
+	top: 180px;
+	left: 30px;
+}
+._youhui1{
+	position: absolute;
+	width: 70px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	border: 1px solid #ccc;
+}
+._youhui1{
+	top: 180px;
+	left: 110px;
+}
+._youhui2{
+	top: 180px;
+	left: 200px;
+}
+._youhui3{
+	top: 180px;
+	left: 290px;
+}
+._youhui4{
+	top: 180px;
+	left: 380px;
+}
+._youhui5{
+	top: 180px;
+	left: 470px;
+}
+._youhui6{
+	top: 180px;
+	left: 560px;
+}
+._fenqi{
+	position: absolute;
+	top: 230px;
+	left: 30px;
+}
+._fenqi1{
+	position: absolute;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	padding: 5px;
+	border: 1px solid #ccc;
+	top: 230px;	
+}
+._fenqi1{
+	left: 110px;
+}
+._fenqi2{
+	left: 185px;
+}
+._fenqi3{
+	left: 312px;
+}
+._fenqi4{
+	left: 440px;
+}
+._fenqi5{
+	left: 575px;
+}
+.D-gwc{
+	width: 900px;
+	height: 100px;
+	position: relative;
+}
+.D-button1{
+	position: absolute;
+	width: 20px;
+	height: 50px;
+	top: 10px;
+	left: 30px;
+	cursor: pointer;
+}
+.D-zishu{
+	position: absolute;
+	width: 50px;
+	height: 48px;
+	line-height: 48px;
+	text-align: center;
+	top: 10px;
+	left: 50px;
+	border: 1px solid #999;
+}
+.D-button2{
+	position: absolute;
+	width: 20px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	top: 10px;
+	left: 102px;
+	cursor: pointer;
+}
+.D-gou{
+	position: absolute;
+	width: 120px;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	top: 10px;
+	left: 160px;
+	border: 1px solid #f00;
+	background: #f00;
+	color: #fff;
+	font-size: 18px;
+	font-weight: bold;
+	cursor: pointer;
+}

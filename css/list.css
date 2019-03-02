@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+#prodList{
+	margin-left: 140px;
+}
+#prodList li{
+	float: left;
+	width: 200px;
+	padding: 10px;
+	border: 1px solid #CECECE;
+	margin: 10px;
+}
+#prodList img{
+	width: 200px;
+	height: 200px;
+	
+}
+#prodList p{
+	margin: 10px;
+}
+#prodList input{
+	width: 120px;
+	height: 40px;
+	background: red;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+#num{
+	position: fixed;
+	right: 10px;
+	top: 10px;
+	border: 1px solid red;
+	font-size: 40px;
+}
+.List_nav{
+	position: relative;
+	bottom: -40px;
+	left: 10px;
+}

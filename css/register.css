@@ -1,0 +1,177 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+._logo01 ._logo2 a{
+	position: relative;
+	top: -21px;
+	right: -79px;
+	color: #f00;
+}
+._logo2 a:hover{
+	color: darkred;
+	text-decoration: underline;
+}
+._zhuce{
+	width: 100%;
+	height: 800px;
+	border-top: 2px solid #ddd;	
+	border-bottom: 2px solid #ddd;
+}
+._buzou{
+	position: relative;
+	margin: 80px auto 0;
+	width: 400px;
+	height: 60px;
+	
+}
+._main{
+	margin: 50px auto 186px;
+	width: 400px;
+}
+.step_1{
+	display: block;
+	width: 24px;
+	height: 24px;
+	background: url(../img/reg-icon.png) no-repeat 1px -199px;
+	margin-left: 27px;
+	margin-bottom: 10px;
+	color: white;
+	text-align: center;
+	line-height: 24px;
+}
+.step_01{
+	color: #55A532;
+}
+.step_2{
+	background-position: -44px -199px;
+	text-align: center;
+	line-height: 24px;
+	color: #999;
+}
+.step_02{
+	color: #999;
+}
+._zc{
+	position: absolute;
+	top: 10px;
+	left: 56px;
+	width: 124px;
+	height: 12px;
+	background: url(../img/reg-icon.png) no-repeat 1px -99px;
+}
+._zc01{
+	position: absolute;
+	top: 10px;
+	left:212px;
+	width: 124px;
+	height: 12px;
+	background: url(../img/reg-icon.png) no-repeat 1px -99px;
+}
+._bz1{
+	float: left;
+	width: 80px;
+	font-size: 14px;
+	text-align: center;
+}
+._bz2{
+	float: left;
+	width: 85px;
+	font-size: 14px;
+	margin-left: 75px;
+}
+._bz3{
+	float: right;
+	font-size: 14px;
+}
+._main{
+	width: 400px;
+	height: 400px;
+	margin: 80px auto;
+	border: 1px solid #ccc;
+}
+.main_1{
+	/*height: 52px;*/
+	margin-bottom: 60px;
+	/*background: #ff0;*/
+}
+.main_1 #text,.main_1 #psd,.main_1 #ema,.main_1 #txt{
+	width:200px;
+	height: 30px;
+}
+.main_1 #btn{
+	width: 50px;
+	height: 30px;
+	margin-left: 50px;
+	
+}
+/*.main_2 .btn{
+	width: 398px;
+	height: 50px;
+	border-color: #999;
+	margin-bottom: 60px;
+	cursor: pointer;
+}
+.main_3 ._next{
+	width: 400px;
+	height: 52px;
+	border: 1px solid #999;
+	background: #f00;
+	color: white;
+	text-align: center;
+	line-height: 52px;
+	cursor: pointer;
+	margin-bottom: 60px;
+}*/
+.main_4{
+	width: 400px;
+	height: 52px;
+}
+.r_qiye{
+	width: 200px;
+	height: 52px;
+	float: left;
+	line-height: 52px;
+	
+}
+
+.r_zc{
+	float: right;
+	width: 150px;
+	height: 52px;
+	line-height: 52px;
+	
+}
+.r_qi{
+	float: left;
+	display: block;
+	width: 26px;
+	height: 26px;
+	margin-top: 10px;
+	margin-right: 5px;
+	background: url(../img/reg-icon.png) no-repeat 1px -159px;
+}
+.r_qi01{
+	float: left;
+	display: block;
+	width: 26px;
+	height: 26px;
+	margin-top: 10px;
+	margin-right: 5px;
+	background: url(../img/reg-icon.png) no-repeat -39px -159px;
+}
+.main_4 a{
+	color: #333;
+}
+.main_4 a:hover{
+	color: red;
+}

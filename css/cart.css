@@ -1,0 +1,214 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+}
+li{
+	list-style: none;
+}
+img{
+	display: block;
+}
+.C-gouwuche{
+	width: 1190px;
+	height: 87px;
+	margin: 0 auto;
+	padding-top: 10px;
+}
+.C-L{
+	width: 277px;
+	height: 50px;
+	float: left;
+}
+.C-L img{
+	float: left;
+}
+.C-JD{
+	float: left;
+	margin-top: 23px;
+	font-size: 25px;
+	margin-left: 10px;
+}
+.C-R{
+	float: right;
+	width: 300px;
+	
+}
+.C-gouwuche .C-R form{
+	border: 2px solid #f00;
+	position: relative;
+	margin-top: 20px;
+}
+.C-gouwuche .C-R .text{
+	width: 250px;
+	height: 28px;
+}
+.C-sou{
+	position: absolute;
+	width: 42px;
+	height: 33px;
+	background: #f00;
+	right: 0px;
+	top: 0px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	line-height: 33px;
+}
+.C-all{
+	width: 1190px;
+	height: 37px;
+	margin: 0 auto;
+	line-height: 37px;
+}
+.C-shop{
+	font-size: 19px;
+	color: #f00;
+	
+}
+.C-all01{
+	width: 1190px;
+	height: 37px;
+	background: #ddd;
+	margin: 0 auto;
+	line-height: 37px;
+	font-size: 14px;
+}
+.C-all01 input,.C-quan{
+	margin-left: 10px;
+}
+.C-sh{
+	margin-left: 50px;
+}
+.C-dan{
+	margin-left: 631px;
+}
+.C-shu{
+	
+	margin-left: 107px;
+	
+}
+.C-xiao{
+	margin-left: 50px;
+}
+.C-zuo{
+	margin-left: 100px;
+}
+.C-gwc{
+	width: 1190px;
+	margin: 0 auto;
+}
+.C-gwc #cartList li{
+	padding: 10px 0;
+	border-bottom: 1px solid #333;
+	position: relative;
+}
+#cartList img{
+	width: 80px;
+	height: 80px;
+	border: 1px solid #ccc;
+	display: block;
+	margin-left: 70px;
+	
+}
+#cartList .C-mz{
+	position: absolute;
+	top: 40px;
+	left: 160px;
+	width: 580px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+#cartList .C-jg{
+	position: absolute;
+	top: 40px;
+	left: 778px;
+}
+#cartList .C-suliang{
+	position: absolute;
+	top: 40px;
+	left: 900px;
+	display: block;
+	width: 40px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #999;
+}
+#cartList .del{
+	position: absolute;
+	top: 40px;
+	left: 1110px;
+}
+#cartList input{
+	position: absolute;
+	top: 40px;
+	left: 10px;
+}
+#cartList .jia{
+	position: absolute;
+	top: 40px;
+	left: 890px;
+}
+#cartList .jian{
+	position: absolute;
+	top: 40px;
+	left: 945px;
+}
+#cartList b{	
+	font-weight: normal;	
+	display: none;
+}
+#cartList .C-sum{
+	position: absolute;
+	top: 40px;
+	left: 990px;
+}
+#cartList .C-gid{
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	display: none;
+}
+.C-floor{	
+	width: 1190px;
+	height: 100px;
+	position: relative;
+}
+.C-floor input{
+	position: absolute;
+	top: 56px;
+	left: 50px;
+}
+.C-floor .C9-quan{
+	position: absolute;
+	top: 50px;
+	left: 70px;
+	font-size: 14px;
+}
+.C-heji{
+	position: absolute;
+	top: 50px;
+	left: 745px;
+	font-size: 14px;
+}
+.jiesuan{
+	position: absolute;
+	top: 25px;
+	left:980px;
+	font-size: 14px;
+	width: 100px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	background: #f00;
+}
+.C-zongjia{
+	position: absolute;
+	top: 50px;
+	left:700px;
+	font-size: 14px;
+}
