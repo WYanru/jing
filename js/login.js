@@ -4,8 +4,8 @@ $(function(){
 		function(res){
 			console.log(res);
 			if(res.msg=="OK"){
-			    window.location.href="#";
-				//window.location.href="index.html";
+			    //window.location.href="#";
+				window.location.href="index.html";
 				console.log(res.data.token);
 				//把登录的token存入cookie中
 				var obj={};
